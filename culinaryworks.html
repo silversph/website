@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="culinary works, professional chef, portfolio">
+    <meta name="description" content="A portfolio website of a professional chef, Jen about her culinary works and information">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jen's Culinary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background2">
+        <img src="./img/bg.jpg" alt="">
+    </div>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+            <img src="./img/Jen_logo.png" alt="">
+            </a>
+            <!-- Jen's Culinary -->
+        </div>
+        <div class="nav">
+            <ul>
+                <li id ="current">
+                    <a href="culinaryworks.html" >Culinary Works</a>
+                </li>
+                <li>
+                    <a href="workexp.html">Work Experiences</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="content">
+       <div class="mainimg"><img src="./img/cwimage.jpg" alt=""> </div>
+       <div class="filtersection">
+            <div class="filtertext">
+                <p>Jen's Culinary Works</p> 
+            </div>
+            <div class="filter">
+                <form action="">
+                    <select name="" id="">
+                        <option value="All" onclick="filterObjects('all')">All</option>
+                        <!-- <option value="" onclick="filterObjects('KFC')">Korean Fried Chicken</option>
+                        <option value="" onclick="filterObjects('KP')">Korean Pancake</option>
+                        <option value="" onclick="filterObjects('KWR')">Korean Meals with Rice</option>
+                        <option value="" onclick="filterObjects('KWOR')">Korean Meals without Rice</option> -->
+                    </select>
+                </form>
+            </div>
+
+            <!-- <div class="buttons">
+                <div class="cbtn" onclick="filterObjects('all')">All</div>
+                <div class="cbtn" onclick="filterObjects('KFC')">Korean Fried Chicken</div>
+                <div class="cbtn" onclick="filterObjects('KP')">Korean Pancake</div>
+                <div class="cbtn" onclick="filterObjects('KWR')">Korean Meals with Rice</div>
+                <div class="cbtn" onclick="filterObjects('KWOR')">Korean Meals without Rice</div>
+            </div> -->
+
+            
+       </div>
+       <div class="collection">
+            <div class="cwork KWR">
+                <div class="ccontainer">
+                    <div class="cimg"><img src="./img/jcw_1.jpg" alt=""></div>
+                    <div class="ctitle2">
+                        <p>Seafood
+                            <br>Fried
+                            Rice
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cwork KWR">
+                <div class="ccontainer">
+                    <div class="cimg"><img src="./img/jcw_2.jpg" alt=""></div>
+                    <div class="ctitle2">
+                        <p>Kimchi
+                            <br>Fried
+                            Rice
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cwork KFC">
+                <div class="ccontainer">
+                    <div class="cimg"><img src="./img/jcw_4.jpg" alt=""></div>
+                    <div class="ctitle3">
+                        <p>Korean<br>
+                            Original
+                            Deep<br>
+                            Fried
+                            Chicken
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cwork KFC">
+                <div class="ccontainer">
+                    <div class="cimg"><img src="./img/jcw_5.jpg" alt=""></div>
+                    <div class="ctitle3">
+                        <p>Korean<br>
+                           Hot and
+                            Sweet
+                            <br>Fried
+                            Chicken
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cwork KP">
+                <div class="ccontainer">
+                    <div class="cimg"><img src="./img/jcw_6.jpg" alt=""></div>
+                    <div class="ctitle2">
+                        <p>Seafood
+                            <br>Pancake
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cwork KP">
+                <div class="ccontainer">
+                    <div class="cimg"><img src="./img/jcw_7.jpg" alt=""></div>
+                    <div class="ctitle2">
+                        <p>Kimchi
+                            <br>Pancake
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cwork KWOR">
+                <div class="ccontainer">
+                    <div class="cimg"><img src="./img/jcw_3.jpg" alt=""></div>
+                    <div class="ctitle2">
+                        <p>Spicy
+                            <br>Rice
+                           Cake
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cwork KWR">
+                <div class="ccontainer">
+                    <div class="cimg"><img src="./img/jcw_8.jpg" alt=""></div>
+                    <div class="ctitle2">
+                        <p>Pork
+                            <br>Cutlet
+                        </p>
+                    </div>
+                </div>
+            </div>
+       </div>
+       
+    <footer>
+        <div class="textcontainer">
+            <div class="textbox1">
+                <ul>
+                    <li>
+                        <a href="culinaryworks.html">Culinary Works</a>
+                    </li>
+                    <li>
+                        <a href="workexp.html">Work Experiences</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="prpolicy.html">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="textbox2">
+                <div class="flogo">
+                    Jen's Culinary
+                </div>
+                <div class="fcopyright">
+                    All Right Reserved &copy; 2022
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
